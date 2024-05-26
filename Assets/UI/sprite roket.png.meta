@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -77,7 +77,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +89,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,7 +101,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -116,7 +113,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -129,7 +125,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -142,7 +137,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -155,12 +149,599 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprite roket_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 3026
+        width: 310
+        height: 697
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad80459be548ad4986ca990815c5a25
+      internalID: -1980452157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2962
+        width: 366
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee00b4c8324fac4fa05f49c35f1f271
+      internalID: -1762816438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_2
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 3018
+        width: 262
+        height: 745
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0def36750f276445b58c8ee5e14d64e
+      internalID: -895829547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_3
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 3074
+        width: 211
+        height: 678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23fb00384e051346a22b73f462314c1
+      internalID: -268583536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_4
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 3022
+        width: 301
+        height: 684
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948c2c9d801c7f048a03ed90d9858cc1
+      internalID: -829054624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_5
+      rect:
+        serializedVersion: 2
+        x: 3626
+        y: 2949
+        width: 345
+        height: 814
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7de998a92132ab4d97f6d24ad20be45
+      internalID: -602650922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_6
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 3012
+        width: 252
+        height: 738
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ac8a8361971d64298244d3615f2fd7
+      internalID: -1938514140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_31
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2042
+        width: 304
+        height: 690
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf923b705602c94ca072ae8c6bf045b
+      internalID: 241223794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_32
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 2136
+        width: 324
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6e77f3e76b5b1469c2b600e6119693
+      internalID: -1595010183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_34
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 2202
+        width: 335
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade29e07424f46849a1b31b13b1b1820
+      internalID: 773367832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_37
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 2268
+        width: 353
+        height: 429
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd03d4ed5613cf84d84588ba9adeee14
+      internalID: -325095420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_40
+      rect:
+        serializedVersion: 2
+        x: 3018
+        y: 2188
+        width: 344
+        height: 490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e13b14fe7b8cc43af5deb8844515e3
+      internalID: 880191559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_42
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 2136
+        width: 334
+        height: 557
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0a00b26a5debb48948a5ae7a73c812
+      internalID: -1690409100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_43
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 2070
+        width: 311
+        height: 686
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cd2ff177613a041a17649464e32d8c
+      internalID: -588184290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1123
+        width: 384
+        height: 623
+      alignment: 9
+      pivot: {x: 0.4729949, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557f162d86a9f834cbca77e3f672ba07
+      internalID: -1664620694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_63
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1065
+        width: 832
+        height: 723
+      alignment: 9
+      pivot: {x: 0.46003973, y: 0.5000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f698ccef8f2348459579fdb01d429d6
+      internalID: -290699941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_64
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1032
+        width: 777
+        height: 740
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1d859338b519943a36bb3853641eab
+      internalID: 1144612660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_65
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 1351
+        width: 313
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e0afc1ddfcaf14f8cd7004b38612ac
+      internalID: -448586224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_66
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 1032
+        width: 803
+        height: 719
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245a73c412ba6a34d9d82a23f452f259
+      internalID: -2113316107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_67
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 991
+        width: 812
+        height: 764
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a0e1ee5abfeae479900018d9f9eca0
+      internalID: 1390552802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_68
+      rect:
+        serializedVersion: 2
+        x: 4452
+        y: 1151
+        width: 395
+        height: 607
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954883b64877356489ef5a46fbed9d7c
+      internalID: -266448722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_89
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 72
+        width: 413
+        height: 605
+      alignment: 9
+      pivot: {x: 0.5342348, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f1eeaefea75f14ebaa56e049a9e3e2
+      internalID: -560441718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_90
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 60
+        width: 735
+        height: 681
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42193ebcdc7433243ae17ded748ae09f
+      internalID: -1487295127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_91
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 88
+        width: 688
+        height: 653
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47279905a74aabc46bae7a6f62e1d1d1
+      internalID: -302022954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_92
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 222
+        width: 314
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1d46f3c30ba5f4a87663b752ec34e3
+      internalID: -483785176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_93
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 42
+        width: 672
+        height: 637
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bee17b47eb85447b612ccb5c32a8db
+      internalID: 658737031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_94
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 0
+        width: 723
+        height: 679
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b182ba81a36086b4caf7e29166adcbf7
+      internalID: 789917135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite roket_95
+      rect:
+        serializedVersion: 2
+        x: 4573
+        y: 84
+        width: 389
+        height: 600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6e4bbb1681c4a4ba0aa22cb50cdbe2
+      internalID: -748459316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -171,7 +752,123 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprite roket_0: -1980452157
+      sprite roket_1: -1762816438
+      sprite roket_10: 1457877199
+      sprite roket_100: -771126506
+      sprite roket_101: -685800285
+      sprite roket_102: -1557511015
+      sprite roket_103: -820164797
+      sprite roket_104: 1872761738
+      sprite roket_105: 65624509
+      sprite roket_106: -1345329873
+      sprite roket_107: 2081705054
+      sprite roket_108: -1356176369
+      sprite roket_109: 238565056
+      sprite roket_11: -2139146099
+      sprite roket_110: 1047271032
+      sprite roket_111: -1412913045
+      sprite roket_112: 732289577
+      sprite roket_113: -1118277360
+      sprite roket_114: 833688074
+      sprite roket_115: 1549528508
+      sprite roket_12: 1292407451
+      sprite roket_13: -407277524
+      sprite roket_14: -1212426033
+      sprite roket_15: 1078740876
+      sprite roket_16: -1315491607
+      sprite roket_17: -1582130489
+      sprite roket_18: 1217143193
+      sprite roket_19: -1506406678
+      sprite roket_2: -895829547
+      sprite roket_20: 218894054
+      sprite roket_21: 478208780
+      sprite roket_22: -1673576731
+      sprite roket_23: -1456870409
+      sprite roket_24: -379557675
+      sprite roket_25: -220854514
+      sprite roket_26: 1184012533
+      sprite roket_27: -473287348
+      sprite roket_28: 1970155689
+      sprite roket_29: -70875196
+      sprite roket_3: -268583536
+      sprite roket_30: -1527198934
+      sprite roket_31: 241223794
+      sprite roket_32: -1595010183
+      sprite roket_33: 1542548624
+      sprite roket_34: 773367832
+      sprite roket_35: 815576974
+      sprite roket_36: -726033655
+      sprite roket_37: -325095420
+      sprite roket_38: -1507956654
+      sprite roket_39: 344005192
+      sprite roket_4: -829054624
+      sprite roket_40: 880191559
+      sprite roket_41: -1834359455
+      sprite roket_42: -1690409100
+      sprite roket_43: -588184290
+      sprite roket_44: 1065201607
+      sprite roket_45: 1742309888
+      sprite roket_46: 1459993621
+      sprite roket_47: -547543468
+      sprite roket_48: -738593311
+      sprite roket_49: -558209332
+      sprite roket_5: -602650922
+      sprite roket_50: -775602671
+      sprite roket_51: -926577862
+      sprite roket_52: 763159218
+      sprite roket_53: -136744342
+      sprite roket_54: -594930367
+      sprite roket_55: 1425748554
+      sprite roket_56: -1232907055
+      sprite roket_57: -746061694
+      sprite roket_58: 1113110288
+      sprite roket_59: 348118947
+      sprite roket_6: -1938514140
+      sprite roket_60: -1288473009
+      sprite roket_61: 459520619
+      sprite roket_62: -1664620694
+      sprite roket_63: -290699941
+      sprite roket_64: 1144612660
+      sprite roket_65: -448586224
+      sprite roket_66: -2113316107
+      sprite roket_67: 1390552802
+      sprite roket_68: -266448722
+      sprite roket_69: -835838919
+      sprite roket_7: 183650613
+      sprite roket_70: -2060624552
+      sprite roket_71: 1651782745
+      sprite roket_72: -1589874672
+      sprite roket_73: -940189049
+      sprite roket_74: -1415676505
+      sprite roket_75: 264668554
+      sprite roket_76: 1840342885
+      sprite roket_77: -71180723
+      sprite roket_78: 660888190
+      sprite roket_79: -1282702248
+      sprite roket_8: -75133636
+      sprite roket_80: -210749637
+      sprite roket_81: 35507205
+      sprite roket_82: -1596792791
+      sprite roket_83: -917972119
+      sprite roket_84: 1874453802
+      sprite roket_85: -671295725
+      sprite roket_86: 2097065918
+      sprite roket_87: 678398827
+      sprite roket_88: 2087677627
+      sprite roket_89: -560441718
+      sprite roket_9: 456916830
+      sprite roket_90: -1487295127
+      sprite roket_91: -302022954
+      sprite roket_92: -483785176
+      sprite roket_93: 658737031
+      sprite roket_94: 789917135
+      sprite roket_95: -748459316
+      sprite roket_96: 548352890
+      sprite roket_97: 1274086334
+      sprite roket_98: 1453229617
+      sprite roket_99: -1789297039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
