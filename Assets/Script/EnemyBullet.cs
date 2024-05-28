@@ -47,6 +47,7 @@ public class EnemyBullet : MonoBehaviour
     {
         if (col.tag == "Player")
         {
+            // HealthManager.instance.DestroyHealth();
             Destroy(gameObject);
         }
     }

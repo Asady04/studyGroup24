@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class PlayerBullet : MonoBehaviour
 {
@@ -31,7 +33,7 @@ public class PlayerBullet : MonoBehaviour
     if(col.tag == "Enemy")
     {
         Destroy(gameObject);
-       //ScoreManager.instance.AddPoint();
+        ScoreManager.instance.AddPoint();
     }
 }
 }

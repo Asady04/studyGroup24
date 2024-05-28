@@ -60,4 +60,12 @@ public class PlayerControl : MonoBehaviour
             aniBoost.SetBool("isRight", false);
         }
     }
+    // void OnTriggerEnter2D(Collider2D col)
+    // {
+    //     if (col.tag == "EnemyBullet")
+    //     {
+    //         // Destroy(gameObject);
+    //         // HealthManager.instance.DestroyHealth();
+    //     }
+    // }
 }
