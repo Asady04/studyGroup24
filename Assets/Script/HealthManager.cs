@@ -5,19 +5,17 @@ using TMPro;
 
 public class HealthManager : MonoBehaviour
 {
+    [SerializeField] GameObject gameOver = null;
     int health;
-    // public GameObject Healthh;
-    // public GameObject HealthPos;
     public TMP_Text healthText;
+    public AudioClip Dead;
+    AudioSource audio1;
+
     void Start()
     {
-        health = 10;
+        health = 5;
         healthText.text = "Health: "+ health.ToString();
-        // instance = this;
-        // for(int i=0;i<health;i++){
-        //     GameObject hati = (GameObject)Instantiate(Healthh);
-        //     hati.transform.position = HealthPos.transform.position;
-        // }
+        audio1 = GetComponent<AudioSource>();
     }
 
     void OnTriggerEnter2D(Collider2D col){
@@ -30,11 +28,11 @@ public class HealthManager : MonoBehaviour
         health--;
         healthText.text = "Health: "+ health.ToString();
         if(health <= 0){
-            healthText.text = "ceritanya game over";
+            audio1.clip = Dead;
+            audio1.Play();
+            ScoreManager.instance.GameOver();
+            gameOver.SetActive(true);
+            Time.timeScale = 0f;
         }
-        // for(int i=0;i<health;i++){
-        //     GameObject hati = (GameObject)Instantiate(Healthh);
-        //     hati.transform.position = HealthPos.transform.position;
-        // }
     }
 }

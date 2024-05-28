@@ -9,6 +9,8 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager instance;
     public TMP_Text scoring;
     public TMP_Text highscoreText;
+    public TMP_Text scoringGO;
+    public TMP_Text highscoreTextGO;
     int score=0;
     int highscore = 0;
 
@@ -31,5 +33,11 @@ public class ScoreManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("highscore", score);
         }
+    }
+
+    public void GameOver(){
+        scoringGO.text = "Score :" + score.ToString();
+        highscore = PlayerPrefs.GetInt("highscore", 0);
+        highscoreTextGO.text = "HIGHSCORE : " + highscore.ToString();
     }
 }

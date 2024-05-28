@@ -7,6 +7,7 @@ public class EnemyControl : MonoBehaviour
     float speed;
     Animator animator;
     bool isDestroyed = false;
+    AudioSource audio1;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,8 @@ public class EnemyControl : MonoBehaviour
     {
         if (col.tag == "PlayerBullet" && !isDestroyed)
         {
+            audio1 = GetComponent<AudioSource>();
+            audio1.Play();
             isDestroyed = true;
             animator.SetTrigger("Destroy"); // Trigger the destruction animation
         }

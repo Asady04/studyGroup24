@@ -11,17 +11,22 @@ public class PlayerControl : MonoBehaviour
     private Rigidbody2D rb;
     public GameObject PlayerBullet;
     public GameObject BulletPos;
+    public AudioClip Fire;
+    AudioSource audio1;
 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        audio1 = GetComponent<AudioSource>();
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            audio1.clip = Fire;
+            audio1.Play();
             GameObject bullet = (GameObject)Instantiate(PlayerBullet);
             bullet.transform.position = BulletPos.transform.position;
         }
@@ -60,12 +65,4 @@ public class PlayerControl : MonoBehaviour
             aniBoost.SetBool("isRight", false);
         }
     }
-    // void OnTriggerEnter2D(Collider2D col)
-    // {
-    //     if (col.tag == "EnemyBullet")
-    //     {
-    //         // Destroy(gameObject);
-    //         // HealthManager.instance.DestroyHealth();
-    //     }
-    // }
 }

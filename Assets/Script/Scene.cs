@@ -22,7 +22,6 @@ public class Main_Menu : MonoBehaviour
    public void Exit()
    {
         Application.Quit();
-        // ScoreManager.instance.Reset();
         Debug.Log("Game Quit");
    }
 }
