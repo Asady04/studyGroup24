@@ -12,6 +12,11 @@ public class Main_Menu : MonoBehaviour
         SceneManager.LoadScene("Map");
         Time.timeScale = 1;
     }
+    
+    public void Menu()
+    {
+        SceneManager.LoadScene("Main_Menu");
+    }
 
     // Update is called once per frame
    public void Exit()
